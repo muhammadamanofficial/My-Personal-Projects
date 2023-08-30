@@ -1,0 +1,302 @@
+:root {
+    --background-color: rgb(247, 181, 181);
+    --backgroung-light-color:rgb(250, 214, 214);
+    --box-background-color:rgb(35, 35, 58);
+    --main-headings-color:rgb(35, 35, 58);
+}
+#main-section{
+    height: 520px;
+}
+#navbar #nav a{
+    font-size: 1rem;
+    margin: 0px 5px;
+    padding: 6px 5px;
+}
+
+#navbar #nav {
+    padding: 20px 0px;
+}
+#navbar #nav:active{
+    background-image: linear-gradient(20deg,rgb(245, 137, 137),30%,rgb(35, 36, 73),70%,rgb(245, 155, 155));
+}
+#social-icon img {
+    
+    margin: 0px 20px;
+}
+#main-section #main-h{
+    font-size: 1.7rem;
+    margin: 20px 0px;
+    padding: 10px 20px;
+}
+#main-section #main-p{
+    font-size:1rem;
+    width: 75vw;
+}
+#main-box #web-name-logo #web-name{
+    font-size: 1.5rem;
+}
+#main-section::before{
+    height: 700px;
+}
+#food-list-container{
+    flex-wrap: wrap;
+}
+#food-category{
+    height: 790px;
+    flex-wrap: wrap;
+}
+#food-category .fooditems{
+    justify-content:flex-start;
+    height: 355px;
+    width: 42%;
+}
+#food-list-section .fooditems{
+    margin: 10px;
+}
+.fooditems .foodboxs-h{
+    font-size: 1.3rem;
+}
+#food-list-section #food-category {
+    height: 785px;
+}
+#food-list-section #Food-list-section-heading{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+#our-rastuarant-section #main-city-container{
+    flex-wrap: wrap;
+    height: 1000px;
+}
+.city-boxs .area-lists li{
+    font-size: 1.1rem;
+}
+.city-boxs .city-boxs-h{
+    font-size: 1.5rem;
+    padding: 3px 0px;
+}
+#our-rastuarant-section::before{
+    top: 1485px;
+    height: 1280px;
+}
+#our-rastuarant-section {
+    height: 1278px;
+}
+#our-services{
+    height: 840px;
+}
+#our-rastuarant-main-h-p h1{
+    margin: 10px;
+    font-size: 1.9rem;
+}
+#our-rastuarant-main-h-p p{
+    margin: 10px;
+    width: 80%;
+}
+#our-services::before{
+    top: 2760px;
+    height: 850px;
+}
+#our-services #our-services-container{
+    height: 720px;
+    margin-top: 5px;
+}
+
+#our-services .our-services-boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.our-services-boxs .services-boxs-h{
+    width: auto;
+    font-size: 1.8rem;
+    margin: 10px 10px;
+    padding: 10px 20px;
+}
+.our-services-boxs .services-boxs-p{
+    font-size: 0.9rem;
+    margin: 10px;
+}
+#own-rastuarant-main-container{
+    height: 500px;
+}
+#our-rastuarant-section #main-city-container .city-boxs{
+    margin: 5px;
+    width: 47%;
+}
+#own-rastuarant-main-container #own-rastuarant-h-p-container {
+    width: 60%;
+}
+#own-rastuarant-h-p-container #own-rastuarant-h {
+    font-size: 3.5rem;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px auto;
+    width: 90%;
+    line-height: 3.5rem;
+}
+
+#own-rastuarant-h-p-container #own-rastaurant-p {
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    width: 90%;
+    margin: 10px auto;
+}
+#own-rastaurant-click-btn{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+}
+#own-rastaurant-click-btn a{
+    text-decoration: none;
+    color: var(--main-headings-color);
+    background-color: var(--backgroung-light-color);
+    font-weight: bold;
+    font-size:1.2rem;
+    font-family: 'Roboto Slab', serif;
+    padding: 12px 20px;
+    border-radius: 40px;
+    border: 3px solid rgb(60, 42, 94);
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#own-rastaurant-click-btn a:active{
+    background-color:rgb(252, 61, 61) ;
+    border: 3px solid var(--backgroung-light-color);
+    color: var(--backgroung-light-color);
+
+}
+#footer-foodmenu-h-p-container #footer-foodmenu-h {
+    font-size: 2.1rem;
+    font-family: 'Roboto Slab', serif;
+    padding: 5px 0px;
+}
+#footer-foodmenu-h-p-container #footer-foodmenu-p {
+    font-size: 0.9rem;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 0px;
+}
+#main-footer-container #footer-foodmenu-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    /* width: 50%; */
+}
+#footer-foodmenu-container #footer-foodmenu-h-p-container{
+    width: 100%;
+}
+#footer-navbar-and-foodmenu-container #footer-navbar {
+    width: 45%;
+}
+#main-footer-container #footer-nav li {
+    width: 100%;
+}
+#main-footer-container #footer-nav li a {
+    font-size: 1rem;
+    padding: 7px 25px;
+}
+#footer-foodmenu-container a:active{
+    text-decoration: underline 3px var(--main-headings-color);
+    }
+#main-footer-container #footer-nav li a:active{
+    background-color: rgb(250, 90, 90);
+    border: 2px solid var(--main-headings-color);
+    color: var(--main-headings-color);
+    font-weight: bold;
+}
+#footer-foodmenu-container #footer-foodmenu-btn{
+    margin: auto;
+    padding: 10px;
+    width: 35%;
+    padding: 16px 12px;}
+
+#main-footer-container #copyright-box {
+    font-size: 1rem;
+    padding: 8px;
+    background-color: white;
+    font-weight: 500;
+}
+#main-footer-container #copyright-box:hover{
+    color: rgb(250, 90, 90);
+  }
+
+
+
+/* OWN-RASTUARANT-FORM TABLET CSS */
+
+
+
+
+#rasturant-form #Form-container {
+    width: 90%;
+    padding: 20px 0px;
+    border-radius: 15px;
+    margin: 10px 0px;
+}
+#own-rastaurant-p2 {
+    width: 90%;
+    margin: 15px auto;
+    font-size: 1rem;
+}
+#rasturant-form #rastaurant-form-h {
+    font-size: 1.6rem;
+    padding: 7px 20px;
+    margin: 5px;
+}
+#rasturant-form #Form-container .form-boxs {
+    display: block;
+    border-radius: 10px;
+    margin: 5px 5px;
+    padding: 8px 10px;
+    width: 80%;
+    height: 100%;
+}
+#own-or-partner-box #own-partner-container {
+    width: 50%;
+}
+#submit-btn-box button {
+    width: 60%;
+    padding: 10px 0px;
+    margin: 8px auto;
+    font-size: 1.1rem;
+}
+#food-menu-Categoreys-Names-container a h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    color: var(--main-headings-color);
+}
+#food-menu-Categoreys-Names-container {
+    width: 97%;
+    border: 2px solid var(--main-headings-color);
+    margin: 5px;
+    border-radius: 8px;
+}
+#food-menu-main-container .foods-category-h1 {
+    border: 3px solid rgb(245, 85, 85);
+    width: 45%;
+    font-size: 1.3rem;
+    margin: 10px auto;
+}
+#food-menu-main-container .food-menu-boxs{
+    padding: 5px;
+    margin: 10px 5px;
+}
+.food-menu-boxs #food-menu-h-p-box h2 {
+    font-size: 1.3rem;
+}
+.food-menu-boxs #food-menu-h-p-box p {
+    font-size: 0.8rem;
+}
+#food-menu-main-container .food-menu-boxs img {
+    width: 17%;
+    padding: 2px;
+}
+#food-menu-btn button {
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 7px;
+    border-radius: 15px;
+}

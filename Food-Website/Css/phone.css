@@ -1,0 +1,309 @@
+:root {
+    --background-color: rgb(247, 181, 181);
+    --backgroung-light-color:rgb(250, 214, 214);
+    --box-background-color:rgb(35, 35, 58);
+    --main-headings-color:rgb(35, 35, 58);
+}
+#social-icon{
+    display: none;
+}
+#web-name-logo{
+    margin-left:0px;
+    justify-content:flex-start ;
+    align-items: flex-start;
+}
+#main-box #web-name-logo #web-name{
+    margin-left:0px;
+}
+#navbar{
+    width: 100%;
+    height:160px;
+    justify-content: flex-start;
+}
+#navbar #nav li{
+    width: 200px;
+}
+#navbar #nav{
+    flex-direction: column;
+    border: none;
+    border-radius: 10px; 
+    padding-right: 120px;
+    width: 50%;
+    height:90px;
+    background-image: linear-gradient(20deg,rgb(245, 137, 137),5%,rgb(35, 36, 73),95%,rgb(245, 155, 155));
+}
+#navbar #nav:hover{
+    background-image: linear-gradient(20deg,rgb(245, 137, 137),20%,rgb(35, 36, 73),80%,rgb(245, 155, 155));
+}
+#navbar #nav li {
+    margin: 5px 2px;
+}
+#navbar #nav a {
+    font-size: 0.8rem;
+    margin: 0px 5px;
+    padding: 0px 5px;
+}
+#main-section::before{
+    height: 690px;
+}
+#main-section{
+    height: 520px;
+}
+#main-section #main-h{
+    font-size: 1.2rem;
+    margin: 20px 0px;
+    padding: 8px 10px;
+}
+#main-section #main-p{
+    font-size:0.8rem;
+    width: 80%;
+}
+#main-btn{
+    flex-direction: column;
+    margin-top: 25px;
+}
+#main-btn button {
+    cursor: pointer;
+    font-size: 1rem;
+}
+#main-btn .main-btns{
+    margin: 15px 0px;
+    padding: 8px 6px;
+}
+#food-list-section #Food-list-section-heading{
+    padding: 10px;
+    font-size: 1rem;
+}
+#food-category{
+    height: 500px;
+}
+#food-category .fooditems{
+    height: 340px;
+    width: 70%;
+    margin: 5px;
+}
+#food-list-section #food-category {
+    height: 1493px;
+}
+#our-rastuarant-section::before {
+    top: 2444px;
+    height: 1280px;
+}
+#main-city-container .city-boxs img{
+    height: 170px;
+}
+#our-rastuarant-main-h-p{
+    padding: 10px 0px;
+    background-color:var(--main-headings-color) ;
+}
+#our-rastuarant-section #main-city-container .city-boxs {
+    margin: 8px;
+    width: 85%;
+    height: 37%;
+}
+.city-boxs .area-lists li {
+    font-size: 1rem;
+    padding: 2px 8px;
+    margin-left: 10px;
+    margin: 1px 10px;
+}
+.city-boxs .area-lists {
+    margin: 0px 15px;
+}
+#our-rastuarant-main-h-p p {
+    margin: 5px;
+    width: 84%;
+    font-size: 1rem;
+    background-color: var(--backgroung-light-color);
+    color: var(--main-headings-color);
+}
+#our-rastuarant-main-h-p h1 {
+    margin: 10px;
+    font-size: 1.6rem;
+    padding: 5px 20px;
+}
+#our-rastuarant-section {
+    height: 1523px;
+}
+#our-services {
+    height: 904px;
+}
+#our-services::before {
+    top: 3723px;
+    height: 935px;
+    width: 100%;
+}
+#our-services #our-services-container {
+    height: 900px;
+    margin-top: 5px;
+}
+#our-services #our-services-main-h {
+    font-size: 1.8rem;
+    padding: 10px;
+}
+.our-services-boxs .services-boxs-h {
+    width: 85%;
+    font-size: 1.2rem;
+    margin: 5px 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.our-services-boxs .services-boxs-p {
+    font-size: 0.8rem;
+    margin: 5px;
+    width: 100%;
+}
+#own-rastuarant-main-container {
+    height: 485px;
+    flex-direction: column;
+}
+#own-rastuarant-h-p-container #own-rastuarant-h {
+    font-size: 2.8rem;
+    margin: 10px auto;
+    width: auto;
+    line-height: 3rem;
+    padding: 0px 10px;
+}
+#own-rastuarant-h-p-container #own-rastaurant-p {
+    font-size: 0.9rem;
+    width: 95%;
+}
+#own-rastuarant-main-container #own-rastuarant-h-p-container {
+    width: 100%;
+}
+#own-rastaurant-click-btn a {
+    font-size: 1rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 35%;
+    margin: 0px;
+}
+#own-rastaurant-click-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+}
+#main-footer-container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+#footer-navbar-and-foodmenu-container {
+    width: 100%;
+    height: 525px;
+    flex-direction: column;
+}
+#footer-navbar-and-foodmenu-container #footer-navbar {
+    width:70%;
+    order: 1;
+    height: 200px;
+}
+#footer-foodmenu-h-p-container #footer-foodmenu-h {
+    font-size: 2rem;
+    padding: 10px 15px;
+}
+#footer-foodmenu-h-p-container #footer-foodmenu-p {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+#footer-foodmenu-container #footer-foodmenu-btn {
+    margin: 17px auto;
+    /* height: 40px; */
+    padding: 8px 0px;
+    width: 40%;
+}
+#main-footer-container #footer-nav li {
+    margin: 10px;
+}
+#main-footer-container #footer-nav li a {
+    font-size: 0.9rem;
+    padding: 6px 15px;
+}
+#main-footer-container #copyright-box {
+    font-size: 0.8rem;
+}
+
+#own-rastaurant-p2 {
+    width: 95%;
+    margin: 5px auto;
+    font-size: 0.7rem;
+    padding: 5px;
+}
+#rasturant-form #rastaurant-form-h {
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 5px;
+}
+#rasturant-form #Form-container {
+    width: 95%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin: 8px 0px;
+    border: 4px solid rgb(27, 27, 27);
+}
+#rasturant-form #Form-container .form-boxs {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+}
+#Form-container label {
+    font-size: 0.9rem;
+    width: 70%;
+}
+#rasturant-form #Form-container .form-boxs .form-inputs {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    width: 70%;
+}
+#agree-box #checkbox-container label {
+    width: 90%;
+    font-size: 0.9rem;
+ 
+}
+#submit-btn-box button {
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 10px;
+    margin: 5px auto;
+    font-size: 1rem;
+    border: 2px solid var(--backgroung-light-color);
+}
+#food-menu-main-container .food-menu-boxs{
+    flex-direction: column;
+}
+#food-menu-main-container .food-menu-boxs img {
+    width: 40%;
+}
+.food-menu-boxs #food-menu-h-p-box h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.food-menu-boxs #food-menu-h-p-box {
+    width: 80%;
+}
+.food-menu-boxs #food-menu-btn {
+    width: 35%;
+}
+#food-menu-main-container .food-menu-boxs {
+    flex-direction: column;
+    width: 80%;
+}
+#food-menu-main-container .foods-category-h1 {
+    width: 80%;
+    font-size: 1.1rem;
+}
+#food-menu-Categoreys-Names-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+#food-menu-Categoreys-Names-container .food-menu-Category-Names {
+    font-size: 1.3rem;
+    width: 45%;
+    margin: 5px auto;
+
+}
