@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Providers | Homisol</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../images/Homisol-logo-Remove-BG.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../script/search.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="website_name">
+            <img src="../images/Homisol-logo-Remove-BG.png" class="logo" alt="">
+            <h1 class="name mt-2 fw-bold ">HomiSol</h1>
+        </div>
+        <div id="mobile-version" class="hamburger">
+            <img class="cross" src="../assets/cross-icon.svg" alt="">
+            <nav id="navbar">
+                <a href="../index.html" class="navlist">Home</a>
+                <a href="service.html" class="navlist">Services</a>
+                <a href="aboutus.html" class="navlist">About us</a>
+                <a href="../index.html#form_container" class="navlist">Contact</a>
+                <a href="FAQ.html" class="navlist">FAQ</a>
+            </nav>
+            <div class="navbar_buttons">
+                <button class="btns signin"><a class="text-black text-decoration-none" href="LoginPage.html">Sign in</a></button>
+                <button class="btns s_provider"><a class="text-black  text-decoration-none " href="Providers_FormPage.html" target="_blank">Service provider?</a></button>
+            </div>
+        </div>
+        <img class="hamburger-menu" src="../assets/hamburger-icon.svg" alt="">
+    </header>
+    <div class="first_container">
+        <h1>Find Your Service Provider</h1>
+        <p class="w-75 m-auto ">Browse and choose from a wide range of service providers to meet your home maintenance
+            needs. Whether you're looking for experts online, top-rated providers, or budget-friendly options, we've got
+            you covered.</p>
+    </div>
+    <div class="wrapper fs-6">
+        <div id="search-container">
+            <input type="search" id="search-input" class="searchvalue" placeholder="Search product name here.." />
+            <select name="selections" id="selection">
+                <option value="All">All</option>
+                <option value="Cleaning">Cleaning</option>
+                <option value="Dusting">Dusting</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <button value="online" class="onlinebtn">Online</button>
+        </div>
+        <div class="btn-box">
+            <button class="" id="sortbtn">Low to High</button>
+            <button id="sortbtn2">High to Low</button>
+        </div>
+        <div></div>
+        <div id="products" class="">
+            <div class="loader_container">
+                <!-- ... other content ... -->
+                <div class="loading">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="footer_container">
+                <h2>Homisol</h2>
+                <div class="footer_inner_container">
+                    <div class="footer_1">
+                        <h3>Services We Provide</h3>
+                        <a href="">AC Repairing</a>
+                        <a href="">Appliances Repairing</a>
+                        <a href="">Cleaning Service</a>
+                        <a href="">Pest Control</a>
+                        <a href="">Gardening Service</a>
+                        <a href="">Security Service</a>
+                        <a href="">Plumber Service</a>
+                        <a href="">Electrician</a>
+                        <a href="">Painter Service</a>
+                        <a href="">Plumber Service</a>
+                    </div>
+                    <div class="footer_2">
+                        <div class="footer_2_1">
+                            <h3>Unique Services We Provide</h3>
+                            <a href="SignupPage.html">Sign up</a>
+                        </div>
+                        <div class="footer_2_2">
+                            <h3>Our Social Links</h3>
+                            <a href="Pages/aboutus.html" target="_blank">About us</a>
+                            <a href="index.html#steps">How we works</a>
+                            <a href="index.html" target="_blank">Contact us</a>
+                            <a href="Pages/FAQ.html" target="_blank">FAQ</a>
+                        </div>
+                    </div>
+                    <div class="footer_3">
+                        <div class="footer_3_1">
+                            <h2>You have any skills for <br> home services?</h2>
+                            <a href="Providers_FormPage.html">Become a Provider</a>
+                        </div>
+                        <div class="fs-6  footer_3_2">
+                            <a href="aboutus.html">About us</a>
+                            <a href="../index.html">How we works</a>
+                            <a href="Location_Page.html">Contact us</a>
+                            <a href="FAQ.html">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_end">
+                <p>&copy; Copyright | Home Services website of Homisol in Pakistan | All Right Reserved</p>
+                <p><a href="">Terms & Conditions |</a><a href=""> Privacy & Policy</a></p>
+            </div>
+        </footer>
+</body>
+
+</html>

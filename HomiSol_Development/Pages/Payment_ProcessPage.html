@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment Process | Homisol</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../script/paymentprocess.js" defer></script>
+</head>
+
+<body>
+    <main id="payment_process" class="container">
+        <section class="row payment_upper_container mt-5 mb-5">
+            <h1 class="text-center col-12 ">Secure Payment</h1>
+            <p class="text-center fs-5 m-auto col">Thank you for choosing Home Services Pakistan. To complete your
+                service booking and ensure a seamless experience, please proceed with the payment below.</p>
+        </section>
+        <section class="payment_details row mt-5 mb-5 ">
+            <p class="col-12 fs-4"><a href="Service_ProcessPage.html" class="orange text-decoration-none ">← Back</a> </p>
+            <h1 class="col-12 fs-3">Payment Details</h1>
+            <div class="col m-auto mt-4 ">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Service Name</th>
+                            <th>Cleaning Service</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Total Cost:</td>
+                            <td>4,000 to 5,000 Rs</td>
+                        </tr>
+                        <tr>
+                            <td>Date:</td>
+                            <td>25/08/2023</td>
+                        </tr>
+                        <tr>
+                            <td>Time:</td>
+                            <td>1:00 PM to 3:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Address:</td>
+                            <td>Mezzanine Floor, Rajput Twin Tower، Main Shahrah-e-Pakistan, Federal B Area Block 10
+                                Gulberg Town, Karachi, Karachi City, Sindh 75950, Pakistan </td>
+                        </tr>
+                        <tr>
+                            <td>City:</td>
+                            <td>Karachi.</td>
+                        </tr>
+                        <tr>
+                            <td>Postal Code:</td>
+                            <td>45122</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="payment_options_container mt-5 p-2 fs-6 ">
+            <h3 class="row fs-3">Payment Options</h3>
+            <p class="row fs-4">Please select your preferred payment method below:</p>
+            <div class="row credit_card_container justify-content-between ">
+                <div class="credit_card col-lg-6">
+                    <div class="card_box row d-flex align-items-center">
+                        <input class="col-6 w-auto mx-3" style=" width: 30px !important;
+                        height: 30px;" type="radio" name="options" value="credit_card">
+                        <p class="col-6 align-self-center mt-3 fs-4 fw-bold">Credit/Debit Card:</p>
+                        <p class="row mx-3 w-75 mb-5 fs-5 w-100">Enter your card details, including card number, expiry date, CVV, and
+                            billing address to complete the payment securely.</p>
+                        <div class="row mx-3">
+                            <select class="row w-auto mb-3 p-3 p-lg-2" name="" id="">
+                                <option value="cardoption">Credit Card</option>
+                                <option value="cardoption">Debit Card</option>
+                            </select>
+                            <div class="card_details row mb-3">
+                                <label class="row" for="cardnumber">Enter card number</label>
+                                <input class="col-md-6 p-3 p-lg-2" type="text" id="cardnumber">
+                            </div>
+                            <div class="row w-50">
+                                <div class="col-12 col-sm-6">
+                                    <label class="row mx-1" for="cardnumber">Expiry</label>
+                                    <input class="w-100 p-2 p-lg-3" type="number" id="cardnumber">
+                                </div>
+                                <div class="card_details col-12 col-sm-6">
+                                    <label class="row mx-1" for="cardnumber">Expiry</label>
+                                    <input class="w-100 p-2 p-lg-3" type="number" id="cardnumber">
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="order.html" class="row p-2 w-auto mt-5 mx-3">Pay now</a>
+                        <p class="row mx-2 mt-2 fs-6 fw-bold ">When you make the payment for our service, you will receive an email containing all the details such as working timings, working details, working cost, and everything else related to the service.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="m-auto  w-75 service_card justify-content-start  row p-4">
+                        <h4 class="col-12 mb-3 ">Your Service Schedule</h4>
+                        <img class="col-sm-5 w-100 " src="../assets/card_img.png" alt="">
+                        <p class="row mt-2 col-sm-10">Cleanse Workers Team<span class="col-10">Selected</span></p>
+                        <div class="row">❤❤❤❤❤ <p class="fs-6 mt-1 ml-0 pl-0">(23 Work Completed) (2)</p></div>
+                        <a href="" class="row fs-6">View details</a>
+                        <p class="price row mt-2">Price 4,500</p>
+                        <div class="row">
+                            <p class="row mb-0">Time/Date</p>
+                            <p class="col-12 fs-6 mt-0 time"><span class="w-auto ">1PM TO 3PM</span> On <span class="w-auto">25/Aug/23</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="payment_options_container mt-5 p-2">
+            <div class="row credit_card_container justify-content-between ">
+                <div class="credit_card col-lg-8">
+                    <div class="row d-flex align-items-center">
+                        <input class="col-6 w-auto" type="radio" name="options" value="cashondelievery" checked>
+                        <p class="col-6 align-self-center mt-3 fw-bold fs-3 ">Cash on Delivery</p>
+                        <p class="para row mx-3 w-100 mb-2 fs-4">Thank you for choosing to pay via Cash on Delivery (COD). With this payment method, you can conveniently pay for the service at the time of delivery.</p>
+                        <p class="cod_cost row p-1 mx-3">Total Cost: 4,500 Rs</p>
+                        <div class="row mx-3">
+                            <p class="row fs-5 fs-5">Date: 25/08/23</p>
+                            <p class="row fs-5 fs-5">Time: 1:00 to 3:00 PM</p>
+                            <p class="row fs-5 fs-5">Address: Mezzanine Floor, Rajput Twin Tower، Main Shahrah-e-Pakistan, Federal B Area Block 10 Gulberg Town, Karachi, Karachi City, Sindh 75950, Pakistan  </p>
+                            <p class="row fs-5 fs-5">City: Karachi.</p>
+                            <a class="row w-auto " href="order.html">Confirm Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="row mt-3 mb-5 p-2">
+            <h5 class="row fs-6">Important</h5>
+            <ul class="fs-6 ">
+                <li>Please ensure the availability of the total amount in cash at the time of service delivery.</li>
+                <li>Our service providers will carry the exact change, but we appreciate your cooperation in providing the exact amount whenever possible.</li>
+                <li>For your safety, we kindly request that you keep the exact payment ready in an envelope or small bag to avoid handling of large sums in public.</li>
+            </ul>
+        </div>
+        <div class="row mt-3 mb-5 p-2 fs-6">
+            <h5 class="row">COD Process</h5>
+            <ol>
+                <li>Confirm Service: Our team will contact you to reconfirm the service appointment details a few hours before the scheduled time.</li>
+                <li>Delivery Day: On the scheduled date and time, our expert team will arrive at your doorstep to deliver the service.</li>
+                <li>Payment Collection: You can make the payment in cash to our service providers upon service completion.</li>
+                <li>After the successful COD payment, you will receive a payment confirmation email with the service appointment details and a receipt for your records.</li>
+            </ol>
+        </div>
+        <div class="customer_support row p-4 rounded-2 fs-6 ">
+            <h4 class="row m-auto">Customer Support</h4>
+            <p class="row w-75 mx-sm-5 text-center text-sm-start">If you have any questions or need further assistance before or during the service appointment, our dedicated customer support team is available 24/7. Don't hesitate to reach out to us at +92 233 232 2333 or email us at info.homisol@gmail.com.</p>
+        </div>
+        <div id="footer">
+        <div class="footer_end fs-6 ">
+            <p>&copy; Copyright | Home Services website of Homisol in Pakistan | All Right Reserved</p>
+            <p><a href="">Terms & Conditions |</a><a href=""> Privacy & Policy</a></p>
+        </div>
+    </div>
+    </main>
+</body>
+
+</html>
